@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a103f30-6c54-489c-997a-795138a1f6c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/condition/LinuxCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/condition/WindowsCondition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/config/MainConfig2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/config/MainConfig2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/bean/Color.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/test/IOCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/test/IOCTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/config/MainConfig2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/config/MainConfig2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/test/IOCTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/test/IOCTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -73,8 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/test/IOCTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+            <state relative-caret-position="397">
+              <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,11 +80,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/condition/LinuxCondition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="241">
+              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bean/Color.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -109,8 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/config/MainConfig2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+            <state relative-caret-position="85">
+              <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#672#673#0" expanded="true" />
@@ -168,10 +172,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/Dao/BookDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/config/MainConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/config/MyTypeFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/condition/WindowsCondition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/condition/LinuxCondition.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/config/MainConfig2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/test/IOCTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/condition/LinuxCondition.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/condition/WindowsCondition.java" />
       </list>
     </option>
   </component>
@@ -251,6 +255,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_annotation_ymd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_annotation_ymd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
               <item name="condition" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -308,7 +321,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IOCTest.test03">
+  <component name="RunManager" selected="JUnit.IOCTest.testImport">
     <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="MAIN_CLASS_NAME" value="com.atguigu.MainTest" />
@@ -327,26 +340,6 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IOCTest_LifeCycle.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_annotation_ymd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8-1" />
-      <option name="PACKAGE_NAME" value="com.atguigu.test" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.IOCTest_LifeCycle" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -410,6 +403,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IOCTest.testImport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_annotation_ymd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8-1" />
+      <option name="PACKAGE_NAME" value="com.atguigu.test" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.IOCTest" />
+      <option name="METHOD_NAME" value="testImport" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
@@ -438,18 +451,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.MainTest" />
-      <item itemvalue="JUnit.IOCTest_LifeCycle.test01" />
       <item itemvalue="JUnit.IOCTest.test01" />
       <item itemvalue="JUnit.IOCTest.test02" />
       <item itemvalue="JUnit.IOCTest.test03" />
+      <item itemvalue="JUnit.IOCTest.testImport" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.IOCTest.test03" />
+        <item itemvalue="JUnit.IOCTest.testImport" />
         <item itemvalue="JUnit.IOCTest.test02" />
+        <item itemvalue="JUnit.IOCTest.test03" />
         <item itemvalue="JUnit.IOCTest.test01" />
         <item itemvalue="Application.MainTest" />
-        <item itemvalue="JUnit.IOCTest_LifeCycle.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -471,17 +484,11 @@
       <workItem from="1569996478177" duration="2206000" />
       <workItem from="1570001781352" duration="16000" />
       <workItem from="1572333592370" duration="5369000" />
-      <workItem from="1572349083112" duration="1590000" />
+      <workItem from="1572349083112" duration="1985000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IOCTest_test02 - 2019.10.29 at 16h 43m 39s.xml">
-      <configuration name="IOCTest.test02" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IOCTest_test02 - 2019.10.29 at 16h 45m 40s.xml">
-      <configuration name="IOCTest.test02" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="IOCTest_test02 - 2019.10.29 at 19h 41m 35s.xml">
       <configuration name="IOCTest.test02" configurationId="JUnit" />
     </history-entry>
@@ -506,9 +513,15 @@
     <history-entry file="IOCTest_test03 - 2019.10.29 at 19h 52m 06s.xml">
       <configuration name="IOCTest.test03" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="IOCTest_test03 - 2019.10.29 at 20h 04m 39s.xml">
+      <configuration name="IOCTest.test03" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IOCTest_test03 - 2019.10.29 at 20h 05m 59s.xml">
+      <configuration name="IOCTest.test03" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34323000" />
+    <option name="totallyTimeSpent" value="34718000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -523,14 +536,14 @@
     <frame x="762" y="0" width="781" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.65591395" weight="0.41493776" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.65591395" visible="true" weight="0.3692946" />
       <window_info id="Structure" order="1" sideWeight="0.34408602" side_tool="true" weight="0.5643154" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.50121063" side_tool="true" weight="0.24896266" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38825214" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5573066" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -540,7 +553,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Spring" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.3304721" />
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.2034384" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.31805158" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -628,7 +641,6 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.12.RELEASE/spring-beans-4.3.12.RELEASE-sources.jar!/org/springframework/beans/factory/config/ConfigurableBeanFactory.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE-sources.jar!/org/springframework/context/annotation/Scope.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE-sources.jar!/org/springframework/context/annotation/Conditional.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bean/Color.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bean/Red.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bean/Blue.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bean/Yellow.java" />
@@ -740,20 +752,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/condition/LinuxCondition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/config/MainConfig2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        <state relative-caret-position="85">
+          <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#672#673#0" expanded="true" />
@@ -764,10 +766,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/condition/LinuxCondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bean/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/test/IOCTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        <state relative-caret-position="397">
+          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

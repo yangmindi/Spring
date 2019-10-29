@@ -4,11 +4,12 @@ import com.atguigu.bean.Color;
 import com.atguigu.bean.Person;
 import com.atguigu.bean.Red;
 import com.atguigu.condition.LinuxCondition;
+import com.atguigu.condition.MyImportSelector;
 import com.atguigu.condition.WindowsCondition;
 import org.springframework.context.annotation.*;
 
 @Conditional({WindowsCondition.class})
-@Import({Color.class, Red.class})
+@Import({Color.class, Red.class, MyImportSelector.class})
 @Configuration
 public class MainConfig2 {
 

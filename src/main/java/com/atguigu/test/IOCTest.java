@@ -1,5 +1,6 @@
 package com.atguigu.test;
 
+import com.atguigu.bean.Blue;
 import com.atguigu.bean.Person;
 import com.atguigu.config.MainConfig;
 import com.atguigu.config.MainConfig2;
@@ -53,6 +54,8 @@ public class IOCTest {
     @Test
     public void testImport(){
         printBeans(applicationContext);
+        Blue bean = applicationContext.getBean(Blue.class);
+        System.out.println(bean);
     }
 
     private void printBeans(AnnotationConfigApplicationContext applicationContext) {

@@ -2,6 +2,7 @@ package com.atguigu.config;
 
 import com.atguigu.bean.Car;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
 
@@ -23,6 +24,7 @@ import org.springframework.context.annotation.Scope;
  * 1）指定初始化和销毁方法：
  *      通过@Bean指定init-method和destory-method
  */
+@ComponentScan("com.atguigu.bean")
 @Configuration
 public class MainConfigOfLifeCycle {
 

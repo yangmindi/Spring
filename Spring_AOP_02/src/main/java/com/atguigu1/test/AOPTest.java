@@ -1,5 +1,6 @@
 package com.atguigu1.test;
 
+import com.atguigu1.impl.MyMathCalculator;
 import com.atguigu1.inter.Calculator;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
@@ -8,14 +9,17 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 @EnableAspectJAutoProxy
 public class AOPTest {
-
+    ApplicationContext ioc = new ClassPathXmlApplicationContext("applicationContext.xml");
     @Test
     public void test(){
-        ApplicationContext ioc = new ClassPathXmlApplicationContext("applicationContext.xml");
-        Calculator bean = ioc.getBean(Calculator.class);
+        MyMathCalculator bean = ioc.getBean(MyMathCalculator.class);
         int add = bean.add(2, 1);
         System.out.println("result:" + add);
+//        System.out.println(bean);
+        System.out.println(bean.getClass());
 
+        Calculator bean2 = (Calculator) ioc.getBean("myMathCalculator");
+        System.out.println(bean2.getClass());
 //        ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
 //        ArithmeticCalculator arithmeticCalculator = (ArithmeticCalculator) ctx.getBean("arithmeticCalculator");
 //
@@ -26,5 +30,13 @@ public class AOPTest {
 //
 //        result = arithmeticCalculator.div(1000, 10);
 //        System.out.println("result:" + result);
+    }
+
+    @Test
+    public void test02(){
+        MyMathCalculator bean = ioc.getBean(MyMathCalculator.class);
+        bean.div(1,1);
+        System.out.println("======");
+        bean.add(1,2);
     }
 }

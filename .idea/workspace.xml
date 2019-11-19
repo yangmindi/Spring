@@ -6,7 +6,6 @@
       <change beforePath="$PROJECT_DIR$/Spring_AOP_02/src/main/java/com/atguigu1/impl/MyMathCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring_AOP_02/src/main/java/com/atguigu1/impl/MyMathCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spring_AOP_02/src/main/java/com/atguigu1/test/AOPTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring_AOP_02/src/main/java/com/atguigu1/test/AOPTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spring_AOP_02/src/main/java/com/atguigu1/utils/LogUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring_AOP_02/src/main/java/com/atguigu1/utils/LogUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring_AOP_02/target/classes/com/atguigu1/utils/LogUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring_AOP_02/target/classes/com/atguigu1/utils/LogUtils.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,12 +52,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Spring_AOP_02/src/main/java/com/atguigu1/impl/MyMathCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="339">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#212#213#0" expanded="true" />
-                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#236#237#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Spring_AOP_02/src/main/java/com/atguigu1/test/AOPTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+            <state relative-caret-position="97">
+              <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,8 +78,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Spring_AOP_02/src/main/java/com/atguigu1/utils/LogUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+            <state relative-caret-position="520">
+              <caret line="67" column="5" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="67" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -236,7 +235,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="width" value="977" />
+    <option name="width" value="1285" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -307,6 +306,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="atguigu1" type="462c0819:PsiDirectoryNode" />
+              <item name="inter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_annotation_ymd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_annotation_ymd" type="462c0819:PsiDirectoryNode" />
+              <item name="Spring_AOP_02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu1" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -366,7 +375,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AOPTest.test02">
+  <component name="RunManager" selected="JUnit.AOPTest.test03">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -406,6 +415,25 @@
       <option name="PACKAGE_NAME" value="com.atguigu1.test" />
       <option name="MAIN_CLASS_NAME" value="com.atguigu1.test.AOPTest" />
       <option name="METHOD_NAME" value="test02" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AOPTest.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring_AOP_02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu1.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="PACKAGE_NAME" value="com.atguigu1.test" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu1.test.AOPTest" />
+      <option name="METHOD_NAME" value="test03" />
       <option name="TEST_OBJECT" value="method" />
       <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -473,26 +501,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IOCTest.testImport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_annotation_ymd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu1.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8-1" />
-      <option name="PACKAGE_NAME" value="com.atguigu1.test" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu1.test.IOCTest" />
-      <option name="METHOD_NAME" value="testImport" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
@@ -521,18 +529,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.AOPTest.test" />
-      <item itemvalue="JUnit.IOCTest.testImport" />
       <item itemvalue="JUnit.IOCTest_LifeCycle.test01" />
       <item itemvalue="JUnit.AOPTest.test1" />
       <item itemvalue="JUnit.AOPTest.test02" />
+      <item itemvalue="JUnit.AOPTest.test03" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AOPTest.test03" />
         <item itemvalue="JUnit.AOPTest.test02" />
         <item itemvalue="JUnit.AOPTest.test1" />
         <item itemvalue="JUnit.AOPTest.test" />
         <item itemvalue="JUnit.AOPTest.test" />
-        <item itemvalue="JUnit.IOCTest_LifeCycle.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -563,44 +571,46 @@
       <workItem from="1574037607703" duration="3317000" />
       <workItem from="1574051507853" duration="683000" />
       <workItem from="1574061922924" duration="1855000" />
-      <workItem from="1574089372367" duration="4702000" />
+      <workItem from="1574089372367" duration="5006000" />
+      <workItem from="1574122883977" duration="73000" />
+      <workItem from="1574126292119" duration="2983000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AOPTest_test02 - 2019.11.18 at 23h 57m 22s.xml">
-      <configuration name="AOPTest.test02" configurationId="JUnit" />
+    <history-entry file="AOPTest_test03 - 2019.11.19 at 12h 47m 46s.xml">
+      <configuration name="AOPTest.test03" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AOPTest_test02 - 2019.11.18 at 23h 57m 41s.xml">
-      <configuration name="AOPTest.test02" configurationId="JUnit" />
+    <history-entry file="AOPTest_test03 - 2019.11.19 at 12h 48m 00s.xml">
+      <configuration name="AOPTest.test03" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AOPTest_test02 - 2019.11.18 at 23h 58m 54s.xml">
-      <configuration name="AOPTest.test02" configurationId="JUnit" />
+    <history-entry file="AOPTest_test03 - 2019.11.19 at 12h 49m 28s.xml">
+      <configuration name="AOPTest.test03" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AOPTest_test02 - 2019.11.19 at 00h 03m 13s.xml">
-      <configuration name="AOPTest.test02" configurationId="JUnit" />
+    <history-entry file="AOPTest_test03 - 2019.11.19 at 12h 49m 45s.xml">
+      <configuration name="AOPTest.test03" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AOPTest_test02 - 2019.11.19 at 00h 03m 22s.xml">
-      <configuration name="AOPTest.test02" configurationId="JUnit" />
+    <history-entry file="AOPTest_test03 - 2019.11.19 at 12h 53m 29s.xml">
+      <configuration name="AOPTest.test03" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AOPTest_test02 - 2019.11.19 at 00h 03m 46s.xml">
-      <configuration name="AOPTest.test02" configurationId="JUnit" />
+    <history-entry file="AOPTest_test03 - 2019.11.19 at 12h 58m 06s.xml">
+      <configuration name="AOPTest.test03" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AOPTest_test02 - 2019.11.19 at 00h 08m 17s.xml">
-      <configuration name="AOPTest.test02" configurationId="JUnit" />
+    <history-entry file="AOPTest_test03 - 2019.11.19 at 13h 01m 00s.xml">
+      <configuration name="AOPTest.test03" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AOPTest_test02 - 2019.11.19 at 00h 08m 28s.xml">
-      <configuration name="AOPTest.test02" configurationId="JUnit" />
+    <history-entry file="AOPTest_test03 - 2019.11.19 at 13h 01m 03s.xml">
+      <configuration name="AOPTest.test03" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AOPTest_test02 - 2019.11.19 at 00h 10m 57s.xml">
-      <configuration name="AOPTest.test02" configurationId="JUnit" />
+    <history-entry file="AOPTest_test03 - 2019.11.19 at 13h 01m 31s.xml">
+      <configuration name="AOPTest.test03" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AOPTest_test02 - 2019.11.19 at 00h 11m 41s.xml">
-      <configuration name="AOPTest.test02" configurationId="JUnit" />
+    <history-entry file="AOPTest_test03 - 2019.11.19 at 13h 02m 24s.xml">
+      <configuration name="AOPTest.test03" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72934000" />
+    <option name="totallyTimeSpent" value="76294000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -612,17 +622,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="781" height="830" extended-state="0" />
+    <frame x="-6" y="0" width="1028" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6547278" weight="0.26417705" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6547278" visible="true" weight="0.26391754" />
       <window_info id="Structure" order="1" sideWeight="0.3452722" side_tool="true" weight="0.534" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.34560907" side_tool="true" weight="0.34852546" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44985673" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.058739256" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3982808" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -632,7 +642,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Spring" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.36827195" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.2679083" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.5716332" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -644,14 +654,14 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6547278" visible="true" weight="0.26417705" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6547278" visible="true" weight="0.26391754" />
       <window_info id="Structure" order="1" sideWeight="0.3452722" side_tool="true" weight="0.534" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.34560907" side_tool="true" weight="0.34852546" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4555874" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31805158" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3982808" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -661,7 +671,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Spring" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.36827195" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.2679083" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.5716332" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -1029,6 +1039,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Spring_AOP_02/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$PROJECT_DIR$/Spring_AOP_02/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar!/org/aspectj/lang/annotation/AfterThrowing.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
@@ -1074,29 +1091,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spring_AOP_02/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Spring_AOP_02/src/main/java/com/atguigu1/impl/MyMathCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="339">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Spring_AOP_02/src/main/java/com/atguigu1/test/AOPTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+        <state relative-caret-position="97">
+          <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1105,8 +1115,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Spring_AOP_02/src/main/java/com/atguigu1/utils/LogUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+        <state relative-caret-position="520">
+          <caret line="67" column="5" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="67" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

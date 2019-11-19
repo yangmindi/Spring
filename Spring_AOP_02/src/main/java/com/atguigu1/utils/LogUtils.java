@@ -1,6 +1,7 @@
 package com.atguigu1.utils;
 
 import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
 import org.springframework.stereotype.Component;
 
@@ -12,7 +13,9 @@ import java.util.Arrays;
 public class LogUtils {
 
     @Pointcut("execution(public int com.atguigu1.impl.MyMathCalculator.*(..))")
-    public void hahaMyPoint(){};
+    public void hahaMyPoint() {
+    }
+
 
     //想在执行目标方法之前运行
     @Before(value = "execution(public int com.atguigu1..MyMath*.*(..)) && execution(* *.*(int,*))")
@@ -42,4 +45,26 @@ public class LogUtils {
         System.out.println("【"+joinPoint.getSignature().getName()+"】方法最终结束了");
     }
 
+    @Around("hahaMyPoint()")
+    public Object myAround(ProceedingJoinPoint pjp) throws Throwable {
+
+        Object[] args = pjp.getArgs();
+        String name = pjp.getSignature().getName();
+
+        Object proceed = null;
+        try {
+            //就是利用反射调用目标方法即可，就是method.invoke(obj,args);
+            System.out.println("【环绕前置通知】【" + name + "方法开始】");
+            proceed = pjp.proceed(args);
+            System.out.println("【环绕返回通知】【" + name + "方法返回，返回值" + proceed + "】");
+        } catch (Throwable throwable) {
+            System.out.println("【环绕异常通知】【" + name + "方法出现异常，异常信息：】" + throwable);
+            throw throwable;
+        } finally {
+            System.out.println("【环绕后置通知】【"+name+"方法结果】");
+        }
+
+        //反射调用后的返回值也一定要返回出去
+        return proceed;
+    }
 }

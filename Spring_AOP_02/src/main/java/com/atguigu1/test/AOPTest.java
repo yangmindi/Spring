@@ -39,4 +39,11 @@ public class AOPTest {
         System.out.println("======");
         bean.add(1,2);
     }
+
+    @Test
+    public void test03(){
+        MyMathCalculator bean = ioc.getBean(MyMathCalculator.class);
+        int add = bean.div(1, 0);
+        System.out.println("======" + add);
+    }
 }

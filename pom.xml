@@ -10,6 +10,8 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>Spring_AOP_02</module>
+        <module>SpringTX_jdbcTemplate</module>
+        <module>Spring_IOC_02</module>
     </modules>
 
 

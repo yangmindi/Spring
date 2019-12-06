@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Spring_IOC_02" />
         <module name="Spring_AOP_02" />
+        <module name="SpringTX_jdbcTemplate" />
       </profile>
     </annotationProcessing>
   </component>
